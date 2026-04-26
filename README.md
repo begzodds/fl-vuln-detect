@@ -127,7 +127,7 @@ python experiments/noise_robust/run_fedcorr.py --config configs/noise_robust.yam
 ## 📝 Citation
 
 ```bibtex
-@mastersthesis{abdumutalliev2025flvuln,
+@masterscourse{abdumutalliev2025flvuln,
   author  = {Begzod Abdumutalliev},
   title   = {Federated Learning for Vulnerability Detection with Noisy Labels},
   school  = {Università degli Studi di Messina},
