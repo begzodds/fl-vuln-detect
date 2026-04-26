@@ -1,6 +1,6 @@
 # 🔐 Federated Learning for Vulnerability Detection
 
-**Master's Thesis Project — University of Messina, Data Science**
+**Master's Course Project — University of Messina, Data Science**
 
 A noise-robust federated learning framework for software vulnerability detection using [Flower FL](https://flower.ai/), [CodeBERT](https://github.com/microsoft/CodeBERT), and the [DiverseVul](https://github.com/wagner-group/diversevul) dataset.
 
