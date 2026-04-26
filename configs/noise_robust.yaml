@@ -1,0 +1,23 @@
+defaults:
+  - fedavg
+
+noise:
+  # Injection parameters
+  enabled: true
+  noise_type: symmetric      # symmetric | asymmetric
+  noise_rate: 0.3            # fraction of noisy labels per client
+  noisy_client_fraction: 0.5 # fraction of clients with label noise
+
+  # Detection parameters (FedLN / FedCorr)
+  detection_method: energy   # energy | lid | embedding
+  detection_rounds: 30       # rounds before detection is stable (FedLN Rw)
+  threshold_quantile: 0.80
+
+  # Correction parameters
+  correction_enabled: true
+  correction_threshold: 0.90  # confidence for relabeling (FedCorr theta)
+
+fedcorr:
+  preprocess_rounds: 20
+  finetune_rounds: 10
+  proximal_mu: 0.1
